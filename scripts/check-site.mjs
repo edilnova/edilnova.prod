@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFile,readdir,access} from 'node:fs/promises';
+const html=await readFile('dist/index.html','utf8');
+assert.match(html,/<link rel="canonical" href="https:\/\/edilnova\.uy\/"/);
+assert.equal((html.match(/<h1[ >]/g)||[]).length,1);
+assert.match(html,/Cotizaciones|COTIZACIONES/);
+assert.match(html,/og:image:width" content="1200"/);
+assert.match(html,/twitter:card" content="summary_large_image"/);
+const schema=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);assert.equal(schema.url,'https://edilnova.uy/');
+const robots=await readFile('dist/robots.txt','utf8');const preview=process.env.VERCEL_ENV&&process.env.VERCEL_ENV!=='production';
+assert.ok(preview?robots.includes('Disallow: /'):robots.includes('Sitemap: https://edilnova.uy/sitemap.xml'));
+assert.ok(html.includes(preview?'noindex,nofollow':'index,follow,max-image-preview:large'));
+assert.match(await readFile('dist/sitemap.xml','utf8'),/<loc>https:\/\/edilnova\.uy\/<\/loc>/);
+for(const asset of ['favicon.svg','favicon.ico','apple-touch-icon.png','icon-192.png','icon-512.png','site.webmanifest','images/edilnova-compartir.jpg','images/portada-edilnova.jpg','404.html'])await access('dist/'+asset);
+let published=html;for(const file of await readdir('dist/assets'))published+=await readFile('dist/assets/'+file,'utf8');
+for(const contact of ['59899292463','099 292 463','edilnova.uy@gmail.com','José Fernando Escobal Rizzo'])assert.ok(!published.includes(contact),'Contacto expuesto en archivos publicados');
+const manifest=JSON.parse(await readFile('dist/site.webmanifest','utf8'));assert.equal(manifest.icons.length,2);
+console.log('Verificados: SEO, HTML inicial, metadatos sociales, indexación, iconos y contactos ofuscados.');

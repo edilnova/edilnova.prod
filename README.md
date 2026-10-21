@@ -54,3 +54,17 @@ Cabecera compacta, paleta naranja y azul oscuro, siete servicios enlazados al fi
 La sección principal presenta el diagnóstico, el detalle de trabajos y una cotización clara para reparaciones, reformas y mantenimiento. Como propuesta complementaria, la consulta de $600 UYU se ofrece cuando el operario considera que el cliente puede resolver la reparación siguiendo sus indicaciones. Si el cliente aplica lo indicado y no logra solucionarlo, el operario resuelve sin cargo adicional por el servicio; los materiales se cobran aparte.
 
 Los contactos se mantienen ofuscados en el JavaScript público, sin números, nombres personales ni direcciones de correo en limpio en los archivos compilados. Se decodifican al renderizar, por lo que el visitante los ve normalmente sin tener que revelarlos. Los botones de WhatsApp, teléfono y correo construyen su destino al pulsarlos. Esto dificulta recolectores de código fuente; un bot que ejecute JavaScript puede leer los datos del DOM renderizado o decodificar el paquete. No se usa cifrado ni se requiere CAPTCHA o login.
+
+## Antes y después
+
+Las nuevas publicaciones tienen tipo repair (Reparación) o remodel (Remodelación), título y caption opcional de hasta 160 caracteres. Las tarjetas priorizan una comparación Antes/Después y el detalle muestra las fotos restantes y, si existen, fotos del proceso. Se puede filtrar por tipo y especialidad. Las publicaciones anteriores sin tipo o sin ambas etapas siguen disponibles bajo Todos los trabajos, sin inventar fotografías ni clasificaciones. El contenido anterior se conserva en el JSON.
+
+## SEO, iconos y vistas previas
+
+Dominio principal: https://edilnova.uy/. El HTML incluye canonical, Open Graph, tarjeta social de imagen grande y datos estructurados de servicios en Montevideo, sin datos de contacto personales. La imagen social local es de 1200 × 630. Incluye favicon SVG e ICO, iconos PNG, apple-touch-icon y manifest.
+
+El build genera HTML inicial con React y luego lo hidrata en el navegador. Los contactos permanecen ofuscados en los archivos; se muestran normalmente tras la carga. Los buscadores reciben el contenido institucional sin depender de ejecutar JavaScript.
+
+robots.txt permite indexar producción y anuncia sitemap.xml. En Vercel, las compilaciones con VERCEL_ENV distinto de production emiten noindex y bloquean el rastreo. No se agregan al sitemap anclas ni páginas de proyectos inexistentes. Hay una página 404 propia.
+
+Verificación: npm run build y npm run check:site. Antes de publicar, configurar edilnova.uy como dominio de producción en Vercel, sus registros DNS y la redirección del dominio alternativo www hacia el principal desde el panel. Tras publicar, enviar https://edilnova.uy/sitemap.xml en Google Search Console. Los cambios en vistas previas pueden tardar en aparecer por la caché de cada plataforma. Estas acciones de dominio e indexación requieren acceso a esas cuentas y no se ejecutan desde el build.
