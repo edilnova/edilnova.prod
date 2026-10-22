@@ -10,4 +10,5 @@ export function ContactAction({kind='whatsapp',children,className,message='Hola,
 const subscribe=()=>()=>{};
 const placeholders={phone:'Teléfono',display:'Contacto',email:'Correo electrónico',name:'Responsable de EDILNOVA'};
 export function ContactValue({field}){const value=useSyncExternalStore(subscribe,()=>decode(field),()=>placeholders[field]);return <>{value}</>}
-export function ContactDetails(){return <div className={s.details}><div className={s.data} role="region" aria-label="Datos de contacto"><p><ContactValue field="name"/></p><ContactAction kind="phone"><ContactValue field="display"/></ContactAction><ContactAction kind="email"><ContactValue field="email"/></ContactAction></div></div>}
+export function ContactDetails(){return <div className={s.details}><div className={s.data} role="region" aria-label="Datos de contacto"><p><ContactValue field="name"/><br/><span>Técnico de mantenimiento edilicio</span></p><ContactAction kind="phone"><ContactValue field="display"/></ContactAction><ContactAction kind="email"><ContactValue field="email"/></ContactAction></div></div>}
+
