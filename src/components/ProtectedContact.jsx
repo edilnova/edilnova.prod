@@ -1,6 +1,7 @@
 import React, { useSyncExternalStore } from "react";
 import s from "./ProtectedContact.module.css";
 const encoded = {
+  localDisplay: [109,100,100,125,111,100,111,125,105,107,110],
   developerPhone: [104,100,101,100,111,110,105,100,100,100,101],
   developerName: [27,56,47,51,60,51,57,50,125,24,46,62,50,63,60,49],
   phone: [104, 100, 101, 100, 100, 111, 100, 111, 105, 107, 110],
@@ -23,6 +24,7 @@ export function ContactAction({
   kind = "whatsapp",
   children,
   className,
+  label,
   message = "Hola, quisiera consultar por un trabajo",
 }) {
   function open() {
@@ -44,13 +46,14 @@ export function ContactAction({
     );
   }
   return (
-    <button type="button" className={className || s.action} onClick={open}>
+    <button type="button" className={className || s.action} aria-label={label} onClick={open}>
       {children}
     </button>
   );
 }
 const subscribe = () => () => {};
 const placeholders = {
+  localDisplay: "Contacto",
   developerName: "el equipo de desarrollo",
   phone: "Teléfono",
   display: "Contacto",
