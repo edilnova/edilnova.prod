@@ -117,19 +117,3 @@ p {
         transition: none !important
     }
 }
-
-.skip-link {
-    position: fixed;
-    top: 8px;
-    left: 16px;
-    z-index: 100;
-    transform: translateY(-150%);
-    padding: 12px 18px;
-    background: var(--ink);
-    color: white;
-    border-radius: 5px
-}
-
-.skip-link:focus {
-    transform: none
-}

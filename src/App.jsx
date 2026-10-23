@@ -13,9 +13,6 @@ export default function App() {
   const [category, setCategory] = useState("Todos");
   return (
     <>
-      <a className="skip-link" href="#contenido">
-        Ir al contenido
-      </a>
       <Header />
       <main id="contenido" tabIndex={-1}>
         <Hero />
