@@ -125,6 +125,7 @@ export function Footer() {
         <Brand />
         <p>Jacinto Vera - Montevideo, Uruguay</p>
         <small>© {new Date().getFullYear()} EDILNOVA.</small>
+        <p><ContactAction kind="developer" className={s.developerCredit} message="Hola, vi la página web de EDILNOVA y me interesaría consultar por el desarrollo de una página web.">Desarrollado por <ContactValue field="developerName" /></ContactAction></p>
       </div>
     </footer>
   );
