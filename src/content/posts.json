@@ -1,5 +1,82 @@
 [
   {
+    "id": "121ad32d-32d0-4bc1-acaa-eeee4080c1bf",
+    "submissionId": "c74ae70c09e41ea86cf56dc19b342129",
+    "type": "remodel",
+    "title": "Remodelación de sala de estar",
+    "category": "Yeso",
+    "location": "Paso de la Arena",
+    "date": "2026-09-22",
+    "caption": "Tabiques en placas de yeso ignífugas",
+    "images": [
+      {
+        "src": "/uploads/53457eed-ebdb-4ad2-b0e0-84d75f41a9ea-0-edilnova-v2.webp",
+        "alt": "Remodelación de sala de estar — Antes 1",
+        "stage": "Antes",
+        "width": 1080,
+        "height": 1920,
+        "watermark": "edilnova-v2"
+      },
+      {
+        "src": "/uploads/53457eed-ebdb-4ad2-b0e0-84d75f41a9ea-1-edilnova-v2.webp",
+        "alt": "Remodelación de sala de estar — Después 2",
+        "stage": "Después",
+        "width": 1073,
+        "height": 2400,
+        "watermark": "edilnova-v2"
+      },
+      {
+        "src": "/uploads/53457eed-ebdb-4ad2-b0e0-84d75f41a9ea-2-edilnova-v2.webp",
+        "alt": "Remodelación de sala de estar — Durante 3",
+        "stage": "Durante",
+        "width": 1350,
+        "height": 2400,
+        "watermark": "edilnova-v2"
+      },
+      {
+        "src": "/uploads/53457eed-ebdb-4ad2-b0e0-84d75f41a9ea-3-edilnova-v2.webp",
+        "alt": "Remodelación de sala de estar — Durante 4",
+        "stage": "Durante",
+        "width": 1073,
+        "height": 2400,
+        "watermark": "edilnova-v2"
+      },
+      {
+        "src": "/uploads/53457eed-ebdb-4ad2-b0e0-84d75f41a9ea-4-edilnova-v2.webp",
+        "alt": "Remodelación de sala de estar — Durante 5",
+        "stage": "Durante",
+        "width": 1536,
+        "height": 2048,
+        "watermark": "edilnova-v2"
+      },
+      {
+        "src": "/uploads/53457eed-ebdb-4ad2-b0e0-84d75f41a9ea-5-edilnova-v2.webp",
+        "alt": "Remodelación de sala de estar — Durante 6",
+        "stage": "Durante",
+        "width": 1536,
+        "height": 2048,
+        "watermark": "edilnova-v2"
+      },
+      {
+        "src": "/uploads/53457eed-ebdb-4ad2-b0e0-84d75f41a9ea-6-edilnova-v2.webp",
+        "alt": "Remodelación de sala de estar — Durante 7",
+        "stage": "Durante",
+        "width": 1073,
+        "height": 2400,
+        "watermark": "edilnova-v2"
+      },
+      {
+        "src": "/uploads/53457eed-ebdb-4ad2-b0e0-84d75f41a9ea-7-edilnova-v2.webp",
+        "alt": "Remodelación de sala de estar — Durante 8",
+        "stage": "Durante",
+        "width": 1073,
+        "height": 2400,
+        "watermark": "edilnova-v2"
+      }
+    ],
+    "updatedAt": "2026-10-23T03:09:41.613Z"
+  },
+  {
     "id": "bd89250a-30c7-435b-b3d4-9e31780c2928",
     "submissionId": "c85558b4b5b16e777388e2bf813acaf6",
     "type": "remodel",
@@ -10,107 +87,107 @@
     "caption": "Renovamos toda la instalación sanitaria, eléctrica y sus artefactos",
     "images": [
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-0-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-0-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Antes 1",
         "stage": "Antes",
         "width": 1500,
         "height": 2000,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-1-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-1-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Después 2",
         "stage": "Después",
         "width": 1200,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-2-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-2-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Durante 3",
         "stage": "Durante",
         "width": 1536,
         "height": 2040,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-3-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-3-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Durante 4",
         "stage": "Durante",
         "width": 2040,
         "height": 1536,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-4-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-4-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Durante 5",
         "stage": "Durante",
         "width": 920,
         "height": 2040,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-5-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-5-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Durante 6",
         "stage": "Durante",
         "width": 920,
         "height": 2040,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-6-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-6-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Durante 7",
         "stage": "Durante",
         "width": 920,
         "height": 2040,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-7-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-7-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Durante 8",
         "stage": "Durante",
         "width": 1542,
         "height": 2047,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-8-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-8-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Durante 9",
         "stage": "Durante",
         "width": 721,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-9-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-9-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Durante 10",
         "stage": "Durante",
         "width": 721,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-10-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-10-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Durante 11",
         "stage": "Durante",
         "width": 2048,
         "height": 1542,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-11-edilnova-v1.webp",
+        "src": "/uploads/9106b09e-6555-4b8e-82aa-8fe67d8ba661-11-edilnova-v2.webp",
         "alt": "Remodelación de baño 2 — Durante 12",
         "stage": "Durante",
         "width": 2048,
         "height": 1542,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       }
     ],
-    "updatedAt": "2026-10-23T02:56:46.315Z"
+    "updatedAt": "2026-10-23T03:09:44.314Z"
   },
   {
     "id": "8794dcd5-8289-4121-a3ad-0f979b50dab5",
-    "submissionId": "3d24cf10ca7fb1387128773f469cd0db",
+    "submissionId": "ddac6c688eebde56961eb3f23e7423f9",
     "type": "repair",
     "title": "Anulación y puesta en marcha de nuevo tanque de abastecimiento de agua",
     "category": "Sanitaria",
@@ -119,47 +196,47 @@
     "caption": "Cambio de tanque existente y cañería que lo abastecía",
     "images": [
       {
-        "src": "/uploads/86887576-de27-464c-9887-4e4e08a4f2fa-0-edilnova-v1.webp",
+        "src": "/uploads/80a7b933-3c07-4baf-b888-cbf4ab00b983-0-edilnova-v2.webp",
         "alt": "Anulación y puesta en marcha de nuevo tanque de abastecimiento de agua — Antes 1",
         "stage": "Antes",
-        "width": 720,
-        "height": 1600,
-        "watermark": "edilnova-v1"
+        "width": 715,
+        "height": 942,
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/86887576-de27-464c-9887-4e4e08a4f2fa-1-edilnova-v1.webp",
+        "src": "/uploads/86887576-de27-464c-9887-4e4e08a4f2fa-1-edilnova-v2.webp",
         "alt": "Anulación y puesta en marcha de nuevo tanque de abastecimiento de agua — Después 2",
         "stage": "Después",
         "width": 721,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/86887576-de27-464c-9887-4e4e08a4f2fa-2-edilnova-v1.webp",
+        "src": "/uploads/86887576-de27-464c-9887-4e4e08a4f2fa-2-edilnova-v2.webp",
         "alt": "Anulación y puesta en marcha de nuevo tanque de abastecimiento de agua — Durante 3",
         "stage": "Durante",
         "width": 1542,
         "height": 2047,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/86887576-de27-464c-9887-4e4e08a4f2fa-3-edilnova-v1.webp",
+        "src": "/uploads/86887576-de27-464c-9887-4e4e08a4f2fa-3-edilnova-v2.webp",
         "alt": "Anulación y puesta en marcha de nuevo tanque de abastecimiento de agua — Durante 4",
         "stage": "Durante",
         "width": 721,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/86887576-de27-464c-9887-4e4e08a4f2fa-4-edilnova-v1.webp",
+        "src": "/uploads/86887576-de27-464c-9887-4e4e08a4f2fa-4-edilnova-v2.webp",
         "alt": "Anulación y puesta en marcha de nuevo tanque de abastecimiento de agua — Durante 5",
         "stage": "Durante",
         "width": 721,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       }
     ],
-    "updatedAt": "2026-10-23T02:56:47.117Z"
+    "updatedAt": "2026-10-23T03:09:45.078Z"
   },
   {
     "id": "4520197b-1823-49fc-8dff-23a43da7ca5b",
@@ -172,95 +249,95 @@
     "caption": "Realizamos revestimientos en porcelanato, realizando revestimientos en porcelanato",
     "images": [
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-0-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-0-edilnova-v2.webp",
         "alt": "Remodelación de baño — Antes 1",
         "stage": "Antes",
         "width": 737,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-1-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-1-edilnova-v2.webp",
         "alt": "Remodelación de baño — Después 2",
         "stage": "Después",
         "width": 737,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-2-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-2-edilnova-v2.webp",
         "alt": "Remodelación de baño — Durante 3",
         "stage": "Durante",
         "width": 1600,
         "height": 1200,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-3-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-3-edilnova-v2.webp",
         "alt": "Remodelación de baño — Durante 4",
         "stage": "Durante",
         "width": 1200,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-4-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-4-edilnova-v2.webp",
         "alt": "Remodelación de baño — Durante 5",
         "stage": "Durante",
         "width": 1200,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-5-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-5-edilnova-v2.webp",
         "alt": "Remodelación de baño — Durante 6",
         "stage": "Durante",
         "width": 1200,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-6-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-6-edilnova-v2.webp",
         "alt": "Remodelación de baño — Durante 7",
         "stage": "Durante",
         "width": 1200,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-7-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-7-edilnova-v2.webp",
         "alt": "Remodelación de baño — Durante 8",
         "stage": "Durante",
         "width": 1200,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-8-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-8-edilnova-v2.webp",
         "alt": "Remodelación de baño — Durante 9",
         "stage": "Durante",
         "width": 1200,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-9-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-9-edilnova-v2.webp",
         "alt": "Remodelación de baño — Durante 10",
         "stage": "Durante",
         "width": 1200,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-10-edilnova-v1.webp",
+        "src": "/uploads/697788fb-baee-408b-afa9-1e2cd3d297fc-10-edilnova-v2.webp",
         "alt": "Remodelación de baño — Durante 11",
         "stage": "Durante",
         "width": 1200,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       }
     ],
-    "updatedAt": "2026-10-23T02:56:48.878Z"
+    "updatedAt": "2026-10-23T03:09:46.833Z"
   },
   {
     "id": "5a5f3a76-748c-4ca5-a7af-f438e415ffc5",
@@ -273,70 +350,70 @@
     "caption": "",
     "images": [
       {
-        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-0-edilnova-v1.webp",
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-0-edilnova-v2.webp",
         "alt": "De garage a monoambiente — Antes 1",
         "stage": "Antes",
         "width": 1600,
         "height": 737,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-1-edilnova-v1.webp",
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-1-edilnova-v2.webp",
         "alt": "De garage a monoambiente — Después 2",
         "stage": "Después",
         "width": 1600,
         "height": 738,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-2-edilnova-v1.webp",
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-2-edilnova-v2.webp",
         "alt": "De garage a monoambiente — Durante 3",
         "stage": "Durante",
         "width": 720,
         "height": 1529,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-3-edilnova-v1.webp",
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-3-edilnova-v2.webp",
         "alt": "De garage a monoambiente — Durante 4",
         "stage": "Durante",
         "width": 738,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-4-edilnova-v1.webp",
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-4-edilnova-v2.webp",
         "alt": "De garage a monoambiente — Durante 5",
         "stage": "Durante",
         "width": 737,
         "height": 1600,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-5-edilnova-v1.webp",
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-5-edilnova-v2.webp",
         "alt": "De garage a monoambiente — Durante 6",
         "stage": "Durante",
         "width": 1600,
         "height": 737,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-6-edilnova-v1.webp",
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-6-edilnova-v2.webp",
         "alt": "De garage a monoambiente — Durante 7",
         "stage": "Durante",
         "width": 1600,
         "height": 737,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       },
       {
-        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-7-edilnova-v1.webp",
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-7-edilnova-v2.webp",
         "alt": "De garage a monoambiente — Durante 8",
         "stage": "Durante",
         "width": 1600,
         "height": 737,
-        "watermark": "edilnova-v1"
+        "watermark": "edilnova-v2"
       }
     ],
-    "updatedAt": "2026-10-23T02:56:49.896Z"
+    "updatedAt": "2026-10-23T03:09:47.830Z"
   }
 ]

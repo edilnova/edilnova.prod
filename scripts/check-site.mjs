@@ -11,7 +11,7 @@ const robots=await readFile('dist/robots.txt','utf8');const preview=process.env.
 assert.ok(preview?robots.includes('Disallow: /'):robots.includes('Sitemap: https://edilnova.uy/sitemap.xml'));
 assert.ok(html.includes(preview?'noindex,nofollow':'index,follow,max-image-preview:large'));
 assert.match(await readFile('dist/sitemap.xml','utf8'),/<loc>https:\/\/edilnova\.uy\/<\/loc>/);
-for(const asset of ['favicon.svg','favicon.ico','apple-touch-icon.png','icon-192.png','icon-512.png','site.webmanifest','images/edilnova-compartir.jpg','images/portada-edilnova.webp','404.html'])await access('dist/'+asset);
+for(const asset of ['favicon.svg','favicon.ico','apple-touch-icon.png','icon-192.png','icon-512.png','site.webmanifest','images/edilnova-compartir.jpg','images/portada-edilnova-limpia.webp','404.html'])await access('dist/'+asset);
 let published=html;for(const file of await readdir('dist/assets'))published+=await readFile('dist/assets/'+file,'utf8');
 for(const contact of ['59899292463','099 292 463','edilnova.uy@gmail.com','José Fernando Escobal Rizzo'])assert.ok(!published.includes(contact),'Contacto expuesto en archivos publicados');
 const manifest=JSON.parse(await readFile('dist/site.webmanifest','utf8'));assert.equal(manifest.icons.length,2);
