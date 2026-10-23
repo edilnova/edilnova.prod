@@ -280,4 +280,22 @@
     cursor: pointer;
     text-align: left
 }
-.developerCredit{padding:0;border:0;background:none;color:inherit;font:inherit;text-align:left;cursor:pointer;text-decoration:underline;text-underline-offset:4px}.developerCredit:hover{color:inherit;text-decoration-thickness:2px}
+
+.developerCredit {
+
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    font-size: 10px;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 4px
+}
+
+.developerCredit:hover {
+    color: inherit;
+    text-decoration-thickness: 2px
+}
