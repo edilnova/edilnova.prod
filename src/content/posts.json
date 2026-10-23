@@ -341,9 +341,9 @@
   },
   {
     "id": "5a5f3a76-748c-4ca5-a7af-f438e415ffc5",
-    "submissionId": "f3d871a2e0dc247436a2f82bbf44a31c",
+    "submissionId": "02e68a44f26fb748902e04eb48c3b6ff",
     "type": "remodel",
-    "title": "De garage a monoambiente",
+    "title": "De garage a vivienda",
     "category": "Reformas",
     "location": "Solymar",
     "date": "2021-04-05",
@@ -351,69 +351,45 @@
     "images": [
       {
         "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-0-edilnova-v3.webp",
-        "alt": "De garage a monoambiente — Antes 1",
-        "stage": "Antes",
-        "width": 1600,
-        "height": 737,
-        "watermark": "edilnova-v3"
+        "alt": "De garage a vivienda — Antes 1",
+        "stage": "Antes"
       },
       {
         "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-1-edilnova-v3.webp",
-        "alt": "De garage a monoambiente — Después 2",
-        "stage": "Después",
-        "width": 1600,
-        "height": 738,
-        "watermark": "edilnova-v3"
+        "alt": "De garage a vivienda — Después 2",
+        "stage": "Después"
       },
       {
         "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-2-edilnova-v3.webp",
-        "alt": "De garage a monoambiente — Durante 3",
-        "stage": "Durante",
-        "width": 720,
-        "height": 1529,
-        "watermark": "edilnova-v3"
+        "alt": "De garage a vivienda — Durante 3",
+        "stage": "Durante"
       },
       {
         "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-3-edilnova-v3.webp",
-        "alt": "De garage a monoambiente — Durante 4",
-        "stage": "Durante",
-        "width": 738,
-        "height": 1600,
-        "watermark": "edilnova-v3"
+        "alt": "De garage a vivienda — Durante 4",
+        "stage": "Durante"
       },
       {
         "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-4-edilnova-v3.webp",
-        "alt": "De garage a monoambiente — Durante 5",
-        "stage": "Durante",
-        "width": 737,
-        "height": 1600,
-        "watermark": "edilnova-v3"
+        "alt": "De garage a vivienda — Durante 5",
+        "stage": "Durante"
       },
       {
         "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-5-edilnova-v3.webp",
-        "alt": "De garage a monoambiente — Durante 6",
-        "stage": "Durante",
-        "width": 1600,
-        "height": 737,
-        "watermark": "edilnova-v3"
+        "alt": "De garage a vivienda — Durante 6",
+        "stage": "Durante"
       },
       {
         "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-6-edilnova-v3.webp",
-        "alt": "De garage a monoambiente — Durante 7",
-        "stage": "Durante",
-        "width": 1600,
-        "height": 737,
-        "watermark": "edilnova-v3"
+        "alt": "De garage a vivienda — Durante 7",
+        "stage": "Durante"
       },
       {
         "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-7-edilnova-v3.webp",
-        "alt": "De garage a monoambiente — Durante 8",
-        "stage": "Durante",
-        "width": 1600,
-        "height": 737,
-        "watermark": "edilnova-v3"
+        "alt": "De garage a vivienda — Durante 8",
+        "stage": "Durante"
       }
     ],
-    "updatedAt": "2026-10-23T03:19:33.728Z"
+    "updatedAt": "2026-10-23T04:24:51.853Z"
   }
 ]
