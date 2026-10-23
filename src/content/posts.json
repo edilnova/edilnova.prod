@@ -1,7 +1,7 @@
 [
   {
     "id": "bd89250a-30c7-435b-b3d4-9e31780c2928",
-    "submissionId": "77fb3f20bd2c54bd7b05d05e3542791c",
+    "submissionId": "c85558b4b5b16e777388e2bf813acaf6",
     "type": "remodel",
     "title": "Remodelación de baño 2",
     "category": "Sanitaria",
@@ -69,11 +69,12 @@
         "alt": "Remodelación de baño 2 — Durante 12",
         "stage": "Durante"
       }
-    ]
+    ],
+    "updatedAt": "2026-10-23T02:53:05.403Z"
   },
   {
     "id": "8794dcd5-8289-4121-a3ad-0f979b50dab5",
-    "submissionId": "0bc500502c373a604a4edca03e46c150",
+    "submissionId": "3d24cf10ca7fb1387128773f469cd0db",
     "type": "repair",
     "title": "Anulación y puesta en marcha de nuevo tanque de abastecimiento de agua",
     "category": "Sanitaria",
@@ -106,11 +107,12 @@
         "alt": "Anulación y puesta en marcha de nuevo tanque de abastecimiento de agua — Durante 5",
         "stage": "Durante"
       }
-    ]
+    ],
+    "updatedAt": "2026-10-23T02:53:37.086Z"
   },
   {
     "id": "4520197b-1823-49fc-8dff-23a43da7ca5b",
-    "submissionId": "01b5af3aa7e14999c8258f6c4c60c731",
+    "submissionId": "b46c7a22aedece8c7209962ebd6fc21b",
     "type": "remodel",
     "title": "Remodelación de baño",
     "category": "Sanitaria",
@@ -173,11 +175,12 @@
         "alt": "Remodelación de baño — Durante 11",
         "stage": "Durante"
       }
-    ]
+    ],
+    "updatedAt": "2026-10-23T02:53:44.456Z"
   },
   {
     "id": "5a5f3a76-748c-4ca5-a7af-f438e415ffc5",
-    "submissionId": "6455b7c37d1e0080c3a63f27082298b9",
+    "submissionId": "f3d871a2e0dc247436a2f82bbf44a31c",
     "type": "remodel",
     "title": "De garage a monoambiente",
     "category": "Reformas",
@@ -225,6 +228,7 @@
         "alt": "De garage a monoambiente — Durante 8",
         "stage": "Durante"
       }
-    ]
+    ],
+    "updatedAt": "2026-10-23T02:53:48.433Z"
   }
 ]
