@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "id": "5a5f3a76-748c-4ca5-a7af-f438e415ffc5",
+    "submissionId": "6455b7c37d1e0080c3a63f27082298b9",
+    "type": "remodel",
+    "title": "De garage a monoambiente",
+    "category": "Reformas",
+    "location": "Solymar",
+    "date": "2021-04-05",
+    "caption": "",
+    "images": [
+      {
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-0.jpg",
+        "alt": "De garage a monoambiente — Antes 1",
+        "stage": "Antes"
+      },
+      {
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-1.jpg",
+        "alt": "De garage a monoambiente — Después 2",
+        "stage": "Después"
+      },
+      {
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-2.jpg",
+        "alt": "De garage a monoambiente — Durante 3",
+        "stage": "Durante"
+      },
+      {
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-3.jpg",
+        "alt": "De garage a monoambiente — Durante 4",
+        "stage": "Durante"
+      },
+      {
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-4.jpg",
+        "alt": "De garage a monoambiente — Durante 5",
+        "stage": "Durante"
+      },
+      {
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-5.jpg",
+        "alt": "De garage a monoambiente — Durante 6",
+        "stage": "Durante"
+      },
+      {
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-6.jpg",
+        "alt": "De garage a monoambiente — Durante 7",
+        "stage": "Durante"
+      },
+      {
+        "src": "/uploads/5a5f3a76-748c-4ca5-a7af-f438e415ffc5-7.jpg",
+        "alt": "De garage a monoambiente — Durante 8",
+        "stage": "Durante"
+      }
+    ]
+  }
+]
