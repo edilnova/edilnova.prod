@@ -42,7 +42,7 @@ export default function PaymentMethods() {
           </span>
           <div>
             <h4>Efectivo</h4>
-            <p>Pago en efectivo</p>
+            <p>Pago en moneda nacional</p>
           </div>
         </li>
         <li className={s.method}>
@@ -51,7 +51,7 @@ export default function PaymentMethods() {
           </span>
           <div>
             <h4>Transferencia bancaria</h4>
-            <p>Desde su banco</p>
+            <p>Transferencia a cuenta</p>
           </div>
         </li>
         <li className={s.credit}>
