@@ -111,10 +111,6 @@ export function Contact() {
         </div>
         <div className={s.actions}>
           <ContactAction className="btn">Escribir por WhatsApp ↗</ContactAction>
-          <ContactAction kind="email">
-            <ContactValue field="email" /> ↗
-          </ContactAction>
-          <span>Montevideo, Uruguay</span>
         </div>
         <ContactDetails />
         <PaymentMethods />

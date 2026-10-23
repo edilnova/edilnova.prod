@@ -1,0 +1,49 @@
+.button {
+    position: fixed;
+    right: max(22px, env(safe-area-inset-right));
+    bottom: max(22px, env(safe-area-inset-bottom));
+    z-index: 20;
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border: 1px solid var(--paper)fff80;
+    border-radius: 50%;
+    background: var(--orange);
+    color: var(--paper);
+    box-shadow: 0 5px 20px #1b304033;
+    cursor: pointer;
+    transition: background .2s, transform .2s
+}
+
+.button svg {
+    width: 24px;
+    height: 24px
+}
+
+.button:hover {
+    background: #903905;
+    transform: translateY(-3px)
+}
+
+.button:active {
+    transform: none
+}
+
+@media(max-width:600px) {
+    .button {
+        right: max(16px, env(safe-area-inset-right));
+        bottom: max(16px, env(safe-area-inset-bottom))
+    }
+}
+
+@media(prefers-reduced-motion:reduce) {
+    .button {
+        transition: none
+    }
+
+    .button:hover {
+        transform: none
+    }
+}

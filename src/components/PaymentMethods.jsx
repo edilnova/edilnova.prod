@@ -1,4 +1,77 @@
-import React from 'react';
-import s from './PaymentMethods.module.css';
-function PaymentIcon({bank=false}){return <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{bank?<><path d="m3 10 13-7 13 7H3ZM5 27h22M7 14v9m9-9v9m9-9v9"/><path d="m12 18 3-3m-3 3 3 3m-3-3h9"/></>:<><rect x="3" y="7" width="26" height="18" rx="3"/><circle cx="16" cy="16" r="4"/><path d="M7 12h1m16 8h1M7 20h1m16-8h1"/></>}</svg>}
-export default function PaymentMethods(){return <section className={s.section} aria-labelledby="payments-title"><div className={s.heading}><p className="eyebrow">MEDIOS DE PAGO</p><h3 id="payments-title">Opciones de <em>pago.</em></h3></div><ul className={s.methods}><li className={s.method}><span className={s.icon}><PaymentIcon/></span><div><h4>Efectivo</h4><p>Pago en efectivo</p></div></li><li className={s.method}><span className={s.icon}><PaymentIcon bank/></span><div><h4>Transferencia bancaria</h4><p>Desde su banco</p></div></li><li className={s.credit}><div className={s.provider}><img src="/brands/mercado-pago.svg" width="48" height="48" alt="Mercado Pago"/><span aria-hidden="true">Mercado Pago</span></div><div className={s.installments}><span>Tarjeta de crédito</span><h4>Hasta <strong>12</strong> cuotas</h4></div></li></ul></section>}
+import React from "react";
+import s from "./PaymentMethods.module.css";
+function PaymentIcon({ bank = false }) {
+  return (
+    <svg
+      viewBox="0 0 32 32"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      {bank ? (
+        <>
+          <path d="m3 10 13-7 13 7H3ZM5 27h22M7 14v9m9-9v9m9-9v9" />
+          <path d="m12 18 3-3m-3 3 3 3m-3-3h9" />
+        </>
+      ) : (
+        <>
+          <rect x="3" y="7" width="26" height="18" rx="3" />
+          <circle cx="16" cy="16" r="4" />
+          <path d="M7 12h1m16 8h1M7 20h1m16-8h1" />
+        </>
+      )}
+    </svg>
+  );
+}
+export default function PaymentMethods() {
+  return (
+    <section className={s.section} aria-labelledby="payments-title">
+      <div className={s.heading}>
+        <p className="eyebrow">MEDIOS DE PAGO</p>
+        <h3 id="payments-title">
+          Al contado o <em>financiado.</em>
+        </h3>
+      </div>
+      <ul className={s.methods}>
+        <li className={s.method}>
+          <span className={s.icon}>
+            <PaymentIcon />
+          </span>
+          <div>
+            <h4>Efectivo</h4>
+            <p>Pago en efectivo</p>
+          </div>
+        </li>
+        <li className={s.method}>
+          <span className={s.icon}>
+            <PaymentIcon bank />
+          </span>
+          <div>
+            <h4>Transferencia bancaria</h4>
+            <p>Desde su banco</p>
+          </div>
+        </li>
+        <li className={s.credit}>
+          <div className={s.provider}>
+            <img
+              src="/brands/mercado-pago.svg"
+              width="48"
+              height="48"
+              alt="Mercado Pago"
+            />
+            <span aria-hidden="true">Mercado Pago</span>
+          </div>
+          <div className={s.installments}>
+            <span>Tarjeta de crédito</span>
+            <h4>
+              Hasta <strong>12</strong> cuotas
+            </h4>
+          </div>
+        </li>
+      </ul>
+    </section>
+  );
+}

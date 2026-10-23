@@ -1,6 +1,6 @@
 .section {
     padding: 54px 0 64px;
-    background: #fff;
+    background: var(--paper);
     border-top: 1px solid var(--line)
 }
 
@@ -195,7 +195,7 @@
     padding: 10px;
     border: 1px solid #d8cbbb;
     border-radius: 50%;
-    background: #fffcf7;
+    background: var(--paper)cf7;
     color: var(--ink);
     cursor: pointer;
     transition: background .15s
@@ -419,9 +419,9 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
-    background: #fffcf7ed;
+    background: var(--paper)cf7ed;
     box-shadow: 0 4px 14px #0002;
-    border-color: #fff9
+    border-color: var(--paper)9
 }
 
 .previous {
