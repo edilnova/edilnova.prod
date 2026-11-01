@@ -130,8 +130,8 @@ export function Footer() {
       <div className={"wrap " + s.footerContent}>
         <Brand />
         <p>Jacinto Vera - Montevideo, Uruguay</p>
-        <small>© {new Date().getFullYear()} EDILNOVA. RUT: 221134100013</small>
         <p>RUT: 221134100013</p>
+        <small>© {new Date().getFullYear()} EDILNOVA.</small>
         <ContactAction
           kind="developer"
           className={s.developerCredit}
