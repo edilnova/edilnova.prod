@@ -106,6 +106,10 @@
     letter-spacing: -1.5px
 }
 
+.installments span {
+    color: var(--orange);
+}
+
 @media(max-width:1050px) {
     .methods {
         grid-template-columns: 1fr 1fr
@@ -146,5 +150,3 @@
         font-size: 28px
     }
 }
-
-

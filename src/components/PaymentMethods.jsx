@@ -67,7 +67,7 @@ export default function PaymentMethods() {
           <div className={s.installments}>
             <span>Tarjeta de crédito</span>
             <h4>
-              Hasta <strong>12</strong> cuotas
+              Hasta <strong>12</strong> cuotas <br /> <span>sin interés</span>
             </h4>
           </div>
         </li>
