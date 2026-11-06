@@ -11,7 +11,7 @@ export const services = [
   ],
   [
     "Pintura",
-    "Pintura interior y exterior y preparación de superficies.",
+    "Pintura interior y exterior, y preparación de superficies.",
     "M3 3h14v7H3zM17 6h4v8h-9v7",
   ],
   [

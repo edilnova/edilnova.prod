@@ -1,5 +1,105 @@
 [
   {
+    "id": "1d540143-75d4-4b5d-a082-d386ca7e76aa",
+    "submissionId": "728712478b74497a3fafe2cea9e8291d",
+    "type": "remodel",
+    "title": "Remodelación de baño en La Comercial",
+    "category": "Reformas",
+    "location": "La Comercial",
+    "date": "2026-11-04",
+    "caption": "Renovamos sanitaria, eléctrica, revestimiento y mobiliario.",
+    "images": [
+      {
+        "width": 1536,
+        "height": 2048,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-0.webp",
+        "alt": "Remodelación de baño en La Comercial — Antes 1",
+        "stage": "Antes"
+      },
+      {
+        "width": 912,
+        "height": 2040,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-1.webp",
+        "alt": "Remodelación de baño en La Comercial — Después 2",
+        "stage": "Después"
+      },
+      {
+        "width": 1370,
+        "height": 1941,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-2.webp",
+        "alt": "Remodelación de baño en La Comercial — Durante 3",
+        "stage": "Durante"
+      },
+      {
+        "width": 1391,
+        "height": 1937,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-3.webp",
+        "alt": "Remodelación de baño en La Comercial — Durante 4",
+        "stage": "Durante"
+      },
+      {
+        "width": 1429,
+        "height": 1950,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-4.webp",
+        "alt": "Remodelación de baño en La Comercial — Durante 5",
+        "stage": "Durante"
+      },
+      {
+        "width": 912,
+        "height": 2040,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-5.webp",
+        "alt": "Remodelación de baño en La Comercial — Durante 6",
+        "stage": "Durante"
+      },
+      {
+        "width": 1536,
+        "height": 1941,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-6.webp",
+        "alt": "Remodelación de baño en La Comercial — Durante 7",
+        "stage": "Durante"
+      },
+      {
+        "width": 1536,
+        "height": 1929,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-7.webp",
+        "alt": "Remodelación de baño en La Comercial — Durante 8",
+        "stage": "Durante"
+      },
+      {
+        "width": 1536,
+        "height": 1950,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-8.webp",
+        "alt": "Remodelación de baño en La Comercial — Durante 9",
+        "stage": "Durante"
+      },
+      {
+        "width": 1086,
+        "height": 1448,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-9.webp",
+        "alt": "Remodelación de baño en La Comercial — Durante 10",
+        "stage": "Durante"
+      },
+      {
+        "width": 912,
+        "height": 2040,
+        "watermark": "edilnova-v3",
+        "src": "/uploads/d7754c46-7354-4643-a8e0-c39bf8fa446a-10.webp",
+        "alt": "Remodelación de baño en La Comercial — Durante 11",
+        "stage": "Durante"
+      }
+    ]
+  },
+  {
     "id": "121ad32d-32d0-4bc1-acaa-eeee4080c1bf",
     "submissionId": "c74ae70c09e41ea86cf56dc19b342129",
     "type": "remodel",
