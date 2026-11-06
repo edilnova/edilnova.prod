@@ -547,3 +547,24 @@
         height: 48px
     }
 }
+.singlePhoto { position:relative; }
+.singleCompact img { height:260px; object-fit:cover; }
+.singleLabel { position:absolute;left:12px;bottom:12px;padding:5px 10px;border-radius:6px;background:#1b3040e8;color:white;font-size:11px;font-weight:700;pointer-events:none; }
+.similarContact {
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    max-width:100%;
+    margin-top:16px;
+    padding:10px 14px;
+    border:1px solid #b94b0940;
+    border-radius:8px;
+    background:#fff2e6;
+    color:var(--orange);
+    font-size:13px;
+    font-weight:700;
+    line-height:1.5;
+    cursor:pointer;
+}
+.similarContact:hover { background:#ffe5ce; border-color:var(--orange); }

@@ -34,8 +34,27 @@ export const services = [
     "Instalaciones, reparaciones y adecuaciones eléctricas.",
     "m14 2-9 12h7l-2 8 9-13h-7Z",
   ],
+  [
+    "Carpintería",
+    "Reparación, ajuste e instalación de muebles, puertas y elementos de madera.",
+    "M3 3h18v18H3zM8 3v18M16 11v2",
+  ],
+  [
+    "Revestimiento",
+    "Colocación y renovación de revestimientos en paredes y pisos.",
+    "M3 3h18v18H3zM3 12h18M12 3v18",
+  ],
+  [
+    "Albañilería",
+    "Construcción y reparación de muros, revoques y contrapisos.",
+    "M3 3h18v18H3zM3 9h18M3 15h18M9 3v6M15 9v6M9 15v6",
+  ],
 ].map(([name, description, icon]) => ({ name, description, icon }));
+export function postCategories(post) {
+  return Array.isArray(post.categories) ? post.categories : post.category ? [post.category] : [];
+}
 export function matchesService(category, service) {
+  if (Array.isArray(category)) return category.some(value => matchesService(value, service));
   const aliases = {
     "Instalaciones sanitarias": ["Sanitaria"],
     "Pintura e impermeabilización": ["Pintura", "Impermeabilización"],

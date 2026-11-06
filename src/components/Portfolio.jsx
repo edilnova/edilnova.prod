@@ -1,7 +1,22 @@
 import React, { useState, useEffect, useRef } from "react";
-import posts from "../content/posts.json";
+import rawPosts from "../content/posts.json";
 import s from "./Portfolio.module.css";
-import { services, matchesService } from "../services";
+import { services, matchesService, postCategories } from "../services";
+import { ContactAction } from "./ProtectedContact";
+
+function SimilarWorkContact({ post }) {
+  const details = [...postCategories(post), post.location].filter(Boolean).join(" · ");
+  return (
+    <ContactAction
+      className={s.similarContact}
+      message={`Hola, vi el trabajo «${post.title}»${details ? ` (${details})` : ""} en la web de EDILNOVA y quisiera consultar por algo similar.`}
+    >
+      Consultar por algo similar <span aria-hidden="true">↗</span>
+    </ContactAction>
+  );
+}
+const repairStages = { Antes: "Problema", Durante: "Intervenci\u00f3n", "Despu\u00e9s": "Resultado", Fotos: "Resultado" };
+const posts = rawPosts.map(post => post.type === "repair" ? {...post, images: post.images.map(image => ({...image, stage: repairStages[image.stage] || image.stage})).sort((a,b) => ["Resultado","Problema","Intervenci\u00f3n"].indexOf(a.stage) - ["Resultado","Problema","Intervenci\u00f3n"].indexOf(b.stage))} : post);
 const typeLabels = { repair: "Reparación", remodel: "Remodelación" };
 function Icon({ name }) {
   const paths = {
@@ -38,13 +53,13 @@ function IconButton({ icon, label, className = "", ...props }) {
     </button>
   );
 }
-function BeforeAfter({ images, compact = false, onOpen }) {
+function BeforeAfter({ images, repair = false, compact = false, onOpen }) {
   const before = images.find((im) => im.stage === "Antes"),
     after = images.find((im) => im.stage === "Después");
-  if (!before || !after) {
-    const im = after || images[0];
+  if (repair || !before || !after) {
+    const im = images.find(image => image.stage === "Resultado") || after || images[0];
     return im ? (
-      <div className={s.singlePhoto}>
+      <div className={s.singlePhoto + (compact ? " " + s.singleCompact : "")}>
         {onOpen ? (
           <button
             className={s.photoButton}
@@ -56,6 +71,7 @@ function BeforeAfter({ images, compact = false, onOpen }) {
         ) : (
           <img src={im.src} alt={im.alt} loading="lazy" />
         )}
+        {repair && <span className={s.singleLabel}>Resultado</span>}
       </div>
     ) : null;
   }
@@ -171,7 +187,7 @@ function ProjectDialog({ post, onClose }) {
           <div>
             <p>
               {active === null
-                ? [typeLabels[post.type], post.category]
+                ? [typeLabels[post.type], ...postCategories(post)]
                     .filter(Boolean)
                     .join(" · ")
                 : image.stage || "Foto"}
@@ -247,16 +263,17 @@ function ProjectDialog({ post, onClose }) {
       ) : (
         <div className={s.scrollContent}>
           {post.location && <p className={s.location}>{post.location}</p>}
-          <BeforeAfter images={post.images} onOpen={openPhoto} />
+          <BeforeAfter repair={post.type === "repair"} images={post.images} onOpen={openPhoto} />
           {caption && <p className={s.description}>{caption}</p>}
-          {["Antes", "Después", "Durante", "Fotos"].map((stage) => {
+          <SimilarWorkContact post={post} />
+          {(post.type === "repair" ? ["Resultado", "Problema", "Intervenci\u00f3n"] : ["Antes", "Despu\u00e9s", "Durante", "Fotos"]).map((stage) => {
             const group = post.images.filter(
                 (im) => (im.stage || "Fotos") === stage,
               ),
               paired =
                 post.images.some((im) => im.stage === "Antes") &&
                 post.images.some((im) => im.stage === "Después");
-            const extra =
+            const extra = post.type === "repair" ? (stage === "Resultado" ? group.slice(1) : group) :
               paired && ["Antes", "Después"].includes(stage)
                 ? group.slice(1)
                 : !paired
@@ -290,14 +307,13 @@ function ProjectDialog({ post, onClose }) {
     </dialog>
   );
 }
-export default function Portfolio({ category, onCategoryChange }) {
-  const [selected, setSelected] = useState(null),
-    [type, setType] = useState("all");
+export default function Portfolio({ category, onCategoryChange, type, onTypeChange: setType }) {
+  const [selected, setSelected] = useState(null);
   const visible = [...posts]
     .sort((a, b) => b.date.localeCompare(a.date))
     .filter(
       (p) =>
-        (category === "Todos" || matchesService(p.category, category)) &&
+        (category === "Todos" || matchesService(postCategories(p), category)) &&
         (type === "all" || p.type === type),
     );
   return (
@@ -308,7 +324,7 @@ export default function Portfolio({ category, onCategoryChange }) {
           Trabajos que <em>hablan por nosotros.</em>
         </h2>
         <p>
-          Reparaciones y remodelaciones: el antes y el después de cada
+          Últimas reparaciones y remodelaciones: el antes y el después de cada
           intervención.
         </p>
         <div className={s.filters} role="group" aria-label="Tipo de trabajo">
@@ -331,7 +347,7 @@ export default function Portfolio({ category, onCategoryChange }) {
             "Todos",
             ...new Set([
               ...services.map((s) => s.name),
-              ...posts.map((p) => p.category),
+              ...posts.flatMap(postCategories),
             ]),
           ].map((c) => (
             <button
@@ -354,7 +370,7 @@ export default function Portfolio({ category, onCategoryChange }) {
                 onClick={() => setSelected(p)}
                 aria-label={"Ver trabajo: " + p.title}
               >
-                <BeforeAfter images={p.images} compact />
+                <BeforeAfter repair={p.type === "repair"} images={p.images} compact />
                 <span className={s.photoCount}>
                   <Icon name="expand" />
                   {p.images.length}
@@ -362,7 +378,9 @@ export default function Portfolio({ category, onCategoryChange }) {
               </button>
               <div className={s.cardBody}>
                 <p className="eyebrow">
-                  {[typeLabels[p.type], p.category].filter(Boolean).join(" · ")}
+                  {[typeLabels[p.type], ...postCategories(p)]
+                    .filter(Boolean)
+                    .join(" · ")}
                 </p>
                 <h3>
                   <button onClick={() => setSelected(p)}>{p.title}</button>
@@ -375,6 +393,7 @@ export default function Portfolio({ category, onCategoryChange }) {
                     onClick={() => setSelected(p)}
                   />
                 </div>
+                <SimilarWorkContact post={p} />
               </div>
             </article>
           ))}
