@@ -5,6 +5,11 @@ export const services = [
     "M4 10h16M8 10V6h8v4M12 6V3m-3 0h6M6 10v7h5v4m9-11v5h-5",
   ],
   [
+    "Electricidad",
+    "Instalaciones, reparaciones y adecuaciones eléctricas.",
+    "m14 2-9 12h7l-2 8 9-13h-7Z",
+  ],
+  [
     "Mantenimiento edilicio",
     "Conservación y reparaciones para hogares, edificios y comercios.",
     "m14 6 4-4a7 7 0 0 0-9 9L2 18l4 4 7-7a7 7 0 0 0 9-9l-4 4Z",
@@ -28,11 +33,6 @@ export const services = [
     "Reformas",
     "Renovación de baños, cocinas y otros espacios existentes.",
     "M2 3h20v18H2zM2 9h20M2 15h20M8 3v6m8 0v6m-8 0v6",
-  ],
-  [
-    "Electricidad",
-    "Instalaciones, reparaciones y adecuaciones eléctricas.",
-    "m14 2-9 12h7l-2 8 9-13h-7Z",
   ],
   [
     "Carpintería",

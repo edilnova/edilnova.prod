@@ -1,5 +1,6 @@
 import React from "react";
 import { services } from "../services";
+import ServiceIcon from "./ServiceIcon";
 import PaymentMethods from "./PaymentMethods";
 import s from "../styles/Institutional.module.css";
 import {
@@ -80,17 +81,7 @@ export function Services({ onSelect }) {
               onClick={() => onSelect(service.name)}
               className={s.service}
             >
-              <svg
-                viewBox="0 0 24 26"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.7"
-                strokeLinejoin="round"
-                strokeLinecap="round"
-                aria-hidden="true"
-              >
-                <path d={service.icon} />
-              </svg>
+              <ServiceIcon name={service.name} />
               <h3>{service.name}</h3>
               <p>{service.description}</p>
               <span>Ver trabajos ↗</span>
